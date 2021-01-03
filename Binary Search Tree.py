@@ -170,23 +170,3 @@ class BinarySearchTree:
 
         else:
             return node
-
-
-numbers = BinarySearchTree()
-numbers.insert(30)
-numbers.insert(20)
-numbers.insert(40)
-numbers.insert(25)
-numbers.insert(10)
-numbers.insert(5)
-numbers.insert(46)
-numbers.insert(35)
-numbers.insert(36)
-numbers.insert(50)
-numbers.insert(45)
-numbers.insert(24)
-numbers.insert(44)
-numbers.insert(41)
-numbers.insert(42)
-numbers.remove(40)
-numbers.lookup(5)
