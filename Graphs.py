@@ -47,20 +47,3 @@ class Graph:
         for j in self._edge_list:
             print(j, '-->', end = ' ')
             print([x for x in self._edge_list[j]])
-
-
-my_graph = Graph()
-my_graph.add_vertex(0)
-my_graph.add_vertex(1)
-my_graph.add_vertex(2)
-my_graph.add_vertex(3)
-my_graph.add_vertex(4)
-my_graph.add_edge(0, 1, directed = True, weighted = 99)
-my_graph.add_edge(0, 2, directed = True, weighted = 50)
-my_graph.add_edge(1, 2, directed = True, weighted = 50)
-my_graph.add_edge(1, 3, directed = True, weighted = 50)
-my_graph.add_edge(1, 4, directed = True, weighted = 50)
-my_graph.add_edge(2, 3, directed = True, weighted = 99)
-my_graph.add_edge(3, 4, directed = True, weighted = 75)
-
-my_graph.print()
