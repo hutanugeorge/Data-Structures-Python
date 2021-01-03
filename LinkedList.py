@@ -114,11 +114,3 @@ class LinkedList:
 
     def __len__(self):
         return self.lenght
-
-numbers = LinkedList()
-numbers.append(1)
-numbers.append(2)
-numbers.append(3)
-numbers.print()
-numbers.remove(2)
-numbers.print()
