@@ -109,14 +109,3 @@ class DoublyLinkedList:
                 array.append(current_node.value)
                 current_node = current_node.next
             print(array)
-
-
-numbers = DoublyLinkedList()
-
-numbers.append(3)
-numbers.prepend(1)
-numbers.append(4)
-numbers.append(12)
-numbers.remove(0)
-numbers.print()
-
