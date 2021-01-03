@@ -49,12 +49,3 @@ class Queue:
             current_node = current_node.next
             counter += 1
         print(lst)
-
-
-numbers = Queue()
-numbers.enqueue(1)
-numbers.enqueue(2)
-numbers.enqueue(3)
-numbers.enqueue(4)
-numbers.print()
-
