@@ -58,17 +58,6 @@ class StackLinkedList:
         print(lst)
 
 
-numbers = StackLinkedList()
-numbers.push(1)
-numbers.push(2)
-numbers.push(3)
-numbers.push(4)
-print(numbers.peek())
-numbers.pop()
-numbers.pop()
-numbers.print()
-
-
 class StackArray:
     def __init__(self):
         self.stack = []
@@ -87,13 +76,3 @@ class StackArray:
     def print(self):
         print(self.stack)
 
-
-numbers1 = StackArray()
-numbers1.push(1)
-numbers1.push(2)
-numbers1.push(3)
-numbers1.push(4)
-print(numbers1.peek())
-numbers1.pop()
-numbers1.pop()
-numbers1.print()
